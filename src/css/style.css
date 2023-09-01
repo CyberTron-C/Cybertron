@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat+Subrayada&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+#mini-logo {
+  font-size: 40px;
+  padding: 1:0px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #00ff00;
+}
+
+#mini-logo::before {
+  content: '[';
+  font-size: 50px;
+  color: #000000;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+#mini-logo::after {
+  content: ']';
+  font-size: 50px;
+  color: #000000;
+  text-shadow: 0 0 10px #00ff00;
+}
+#nav {
+  color: #00ff00;
+  justify-content: end;
+  display: flex;
+  gap: 10px;
+  padding: 0px 30px 0px 0px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+#nav a {
+  border: solid 2px #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #00ff00;
+  background-color: #222222;
+  font-size: 20px;
+}
+#nav a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
